@@ -1,0 +1,68 @@
+@import url(./variables.css);
+@media (max-device-width: 900px) {
+    .traductor{
+        all:unset;
+        position: relative;
+        display: block;
+        margin: 50px 0;
+        margin: auto;
+        width: 100%;
+    }
+    /* TEXTO A TRADUCIR */
+    .traductor-texto{
+        /* all:unset; */
+        margin: auto;
+        padding: 0;
+        width: 80%;
+    }
+    .textoEncriptado{
+        margin: auto;
+    }
+
+    /* RESULTADO DE TRADUCCION */
+    .traductor-resultado{
+        all:unset;
+        margin:50px 0;
+    }
+    .separador{
+        background-color: var(--colorLetraB);
+        border-radius: 10px;
+        padding: 0;
+        width: 80%;
+        padding: 10px 0;
+        margin: 50px auto;
+    }
+    .resultado-traduccion{
+        /* all:unset; */
+        height: auto;
+        overflow-y: auto;
+        position: relative;
+        padding: 10px 0;
+        text-align: center;
+        max-height: 400px;
+        text-align: start;
+        line-height: 1.9rem;
+    }
+    .respuesta-traduccion{
+        /* all:unset; */
+    }
+    .borde-btn-copiar{
+        /* all:unset; */
+        position: relative;
+        width: auto;
+        bottom: auto;
+        border-radius: 10px;
+    }
+
+    /* TEXTO NO ENCONTRADO */
+    .icono-buscar{
+        display: none;
+    }
+    .texto-detalles{
+        background-color: #fff;
+        margin: 20px auto;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: var(--colorPlomo) 0px 10px 10px 0px;
+    }
+}

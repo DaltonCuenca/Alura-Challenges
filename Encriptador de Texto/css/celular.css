@@ -1,0 +1,6 @@
+@import url(./variables.css);
+@media (max-device-width: 500px)  {
+    .btn-copiar{
+        width: 100%;
+    }
+}

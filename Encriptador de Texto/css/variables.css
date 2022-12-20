@@ -1,0 +1,17 @@
+*{
+    --colorfondo:#f3f5fc;
+
+    --colorLetra:#0A3871;
+    --colorLetraB:#fff;
+    --colorLetraN:#000;
+
+    --colorPlomo0:#d8dfe8;
+    --colorPlomo:#cecece;
+    --colorPlomo1:#495057;
+    --colorPlomo2:#4b4b4b;
+    --colorPlomo3:#343a40;
+
+    /* CONFIGURACIONES */
+    box-sizing: border-box;
+    font-family: 'Inter';
+}

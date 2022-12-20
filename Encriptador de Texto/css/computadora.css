@@ -1,0 +1,149 @@
+@import url(./variables.css);
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+body {
+    margin: 20px;
+    background: var(--colorfondo);
+}
+
+/*######## MAIN ##########*/
+
+
+/* .traductor{
+    width: 100%;    
+} */
+
+/*######## Traductor - Texto ##########*/
+
+.traductor-texto {
+    width: 60%;
+    padding: 30px;
+    margin-left: 70px;
+}
+
+/* TEXTAREA */
+.textoEncriptado {
+    border: none;
+    caret-color: var(--colorLetra);
+    font-size: 1.7rem;
+    width: 100%;
+    height: 350px;
+    color: var(--colorPlomo2);
+    background: var(--colorfondo);
+    resize: none;
+}
+
+.textoEncriptado:focus {
+    outline: none;
+}
+.textoEncriptado::placeholder {
+    color: var(--colorLetra);
+}
+
+
+/* INFO */
+span.info {
+    display: flex;
+    color: var(--colorPlomo1);
+    margin: 20px 0;
+}
+span.info i{
+    margin-right: 5px;
+}
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* BOTONES */
+.encriptar{
+    background-color: var(--colorLetra);
+    color: var(--colorLetraB);
+}
+.desencriptar{
+    background-color: var(--colorPlomo0);
+    color: var(--colorLetra);
+}
+
+/*######## Traductor - Resultado ##########*/
+.traductor-resultado{
+    background-color: var(--colorLetraB);
+    height: 500px;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    border-radius: 20px;
+    height: 90%;
+    width: 30%;
+    margin: 20px;
+}
+.icono-buscar{
+    margin: 50px 0;
+}
+.texto-detalles{
+    text-align: center;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    color: var(--colorPlomo1);
+}
+.texto-detalles h2{
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.separador{
+    position: relative;
+    /* position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+/* .btn-copiar{
+} */
+.borde-btn-copiar{
+    background-color: #fff;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    bottom: 10px;
+    border-radius: 20px;
+}
+.resultado-traduccion{
+    width: 100%;
+    height: 90vh;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    position: absolute;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+.respuesta-traduccion{
+    margin: 20px;
+    color: var(--colorLetra);
+    font-size: 1.5rem;
+}
+.resultado-traduccion span.ico{
+    display: block;
+    width: 50px;
+    background-color: var(--colorPlomo0);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+/*######## BOTONES ##########*/
+.btn{
+    width: 300px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
